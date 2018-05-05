@@ -18,6 +18,8 @@ You will be asked to create a password and user details for a new unprivileged s
 
 Afterwards, the server will restart and you should then be able to connect to your Perforce server.
 
+EDIT: If you can't connect to your server after it restarts, log back into the shell and use the 'p4d -d' command to start the Perforce service.
+
 # Security
 
 The created server will have default Perforce installation settings. This means anyone who connects to your server can create a user account without authorization. After you create your first user, you should close this security hole by using the following `p4` command from your Perforce Client.
